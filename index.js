@@ -8,10 +8,7 @@ const port = 3000;
 
 
 // connect with database
-const dbUserName = "TuanAnh";
-const dbPw = "tuananh2K";
-const dbName = "User-Name";
-const MONGO_URI = `mongodb+srv://<dbUserName>:<dbPw>@cluster0.sbjgk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const MONGO_URI = `mongodb+srv://TuanAnh:tuananh2K@cluster0.sbjgk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 mongoose.connect(MONGO_URI,()=>{
     console.log("Connected to DB");
 });
